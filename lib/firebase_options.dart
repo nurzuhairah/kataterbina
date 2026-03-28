@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB_1bSvGWiA-Tw1ki263IBXjr0NjBFxYn8',
+    apiKey: '',
     appId: '1:62704641227:web:954adacd2afbfc0f03e74e',
     messagingSenderId: '62704641227',
     projectId: 'kata-terbina',
@@ -59,7 +59,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAqBDBX8kmWkP-Elv1ZXHoyzJMKFjhOH5o',
+    apiKey: '',
     appId: '1:62704641227:ios:26e6eba9549c1eff03e74e',
     messagingSenderId: '62704641227',
     projectId: 'kata-terbina',
