@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62704641227",
+    "project_id": "kata-terbina",
+    "storage_bucket": "kata-terbina.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62704641227:android:f24141cf3b5c560803e74e",
+        "android_client_info": {
+          "package_name": "com.badudun.kata_terbina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPV1FVsTBFcR1ZKJW_El9cSEC09aF4ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62704641227:android:87d3413f607a0bfc03e74e",
+        "android_client_info": {
+          "package_name": "com.example.kata_terbina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPV1FVsTBFcR1ZKJW_El9cSEC09aF4ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

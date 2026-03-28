@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "kata-terbina",
+          "appId": "1:62704641227:android:87d3413f607a0bfc03e74e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "kata-terbina",
+          "configurations": {
+            "android": "1:62704641227:android:87d3413f607a0bfc03e74e",
+            "ios": "1:62704641227:ios:26e6eba9549c1eff03e74e",
+            "macos": "1:62704641227:ios:26e6eba9549c1eff03e74e",
+            "web": "1:62704641227:web:954adacd2afbfc0f03e74e",
+            "windows": "1:62704641227:web:e5896dad8316e73f03e74e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

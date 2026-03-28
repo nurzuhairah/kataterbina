@@ -1,0 +1,49 @@
+name: kata_terbina
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.4.0
+
+  # UI icons
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+
+  # Wheel spin package
+  flutter_fortune_wheel: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/bg_phone.png
+    - assets/bg_tablet.png
+    - assets/bg_phone2.png
+    - assets/bg_tablet2.png
+    - assets/bg_comp.png
+    - assets/music/background.mp3
+    - assets/sounds/click.wav
+    - assets/sounds/tick.wav
+    - assets/sounds/wrong.wav
+    - assets/profiles/1.png
+    - assets/profiles/2.jpeg
+    - assets/profiles/3.png
+    - assets/profiles/4.jpeg
+    - assets/profiles/5.png
+    - assets/profiles/6.jpeg
+    - assets/profiles/7.png
